@@ -18,16 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: "Portfolio: Ari Stein"
 email: ari@ahstein.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A personal porfolio site for Ari H. Stein. Primarily game development, but who knows?
-  Maybe we'll throw in some glassblowing, baking, and whatever else the future brings.
+  The personal porfolio of Ari Stein. 
+  Primarily game development. 
+  But life is a dance, so who knows what the will future hold?
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://AriHStein.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: ah_stein
 github_username:  AriHStein
-minimal_mistakes_skin: default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "dark" # default, "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
 # Build settings
@@ -75,32 +76,38 @@ plugins:
 author:
   name   : "Ari Stein"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "The personal porfolio of Ari Stein. Primarily game development. But life is a dance, so who knows what the will future hold?"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://arihstein.github.io"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/arihstein"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
+    - label: "Itch.io"
+      icon: "fab fa-itch-io"
+      url: "https://ahstein.itch.io/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/arihstein"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
+    - label: "Itch.io"
+      icon: "fab fa-itch-io"
+      url: "https://ahstein.itch.io/"
 
 defaults:
   # _posts
