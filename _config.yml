@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Portfolio: Ari Stein"
+name: "Ari Stein"
 email: ari@ahstein.com
 description: >- # this means to ignore newlines until "baseurl:"
   The personal porfolio of Ari Stein. 
@@ -41,6 +42,7 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/Los_Angeles
 
+# Reading Files
 include:
   - _pages
 
@@ -81,33 +83,30 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://arihstein.github.io"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arihstein"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+
     - label: "Itch.io"
       icon: "fab fa-itch-io"
       url: "https://ahstein.itch.io/"
 
 footer:
   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arihstein"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+
     - label: "Itch.io"
       icon: "fab fa-itch-io"
       url: "https://ahstein.itch.io/"
+
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -116,11 +115,13 @@ defaults:
       type: posts
     values:
       layout: single
+      permalink: /blog/:path/
       author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
+
   # _pages
   - scope:
       path: "_pages"
@@ -129,9 +130,21 @@ defaults:
       layout: single
       author_profile: true
 
+  # _projects
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: single-webgl-embed
+      comments: true
+      share: true
+
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
+year_archive:
+  type: liquid
+  path: /years/
