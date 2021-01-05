@@ -3,11 +3,16 @@ permalink: /about/
 title: "About"
 ---
 
-The wisest person I know once told me that some people see life as race and others see it as a dance (thanks, Mom!). That simple idea helps me stay focused on the things I strive for in life&mdash;building happiness for myself, enabling the people around me to be their best selves, noticing beauty in everyday (and extrordinary) things. Sharing my wonder with the world. Finding reasons to laugh.
+Hi! I'm Ari. 
 
-I am a husband.
-I am a teacher.
-I am an artist. 
- 
+I used to work in education doing science curriculum development. Now I'm making video games.
 
-I make games.
+My favorite feeling in the world is discovering how to do better next time. I like to do things that give me that feeling:
+<ul>
+    <li>Playing games (both board games and video games)</li>
+    <li>Cooking, baking, and mixing cocktails</li>
+    <li>Blowing glass</li>
+    <li>Rock climbing</li>
+</ul>
+
+I also like math, physics, hiking, and skiing.
