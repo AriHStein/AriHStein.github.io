@@ -42,6 +42,13 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/Los_Angeles
 
+#Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-XQ0G3P53HQ"
+    anonymize_ip: false # default
+
 # Reading Files
 include:
   - _pages
