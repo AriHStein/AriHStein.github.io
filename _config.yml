@@ -85,7 +85,7 @@ plugins:
 author:
   name   : "Ari Stein"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "The personal porfolio of Ari Stein. Primarily game development. But life is a dance, so who knows what the will future hold?"
+  bio    : "The personal porfolio of Ari Stein. Primarily game development. But life is a dance, so who knows what the future will hold?"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
