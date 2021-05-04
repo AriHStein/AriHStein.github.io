@@ -11,7 +11,7 @@ unity_canvas_height: 540
 
 header:
 #  image: /assets/images/N4MBanner.png
-  teaser: assets/images/BMCodingChallenge-teaser.PNG
+  teaser: /assets/images/BMCodingChallenge-teaser.PNG
 
 sidebar:
   - title: "Programming Test"
