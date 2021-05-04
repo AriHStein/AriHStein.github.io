@@ -1,6 +1,9 @@
 ---
 title: "Bad Mecidince Coding Challenge"
 date: 2020-12-27
+collection: projects
+number: 2
+
 unity_dir: BMCodingChallenge
 unity_build_name: WebGL
 unity_company_name: Ari Stein Games
